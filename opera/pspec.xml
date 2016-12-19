@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>opera</Name>
@@ -11,7 +11,7 @@
         <Summary>Opera Web Browser</Summary>
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
-        <Archive sha1sum="d432d80df4546777f505d69c9d0bb7a454cb7de4" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/41.0.2353.46/linux/opera-stable_41.0.2353.46_amd64.deb</Archive>
+        <Archive sha1sum="077f4bb24ca5f6b97940133bde62f6da82e37486" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/42.0.2393.85/linux/opera-stable_42.0.2393.85_amd64.deb </Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -65,7 +65,7 @@
     <History>
         <Update release="1">
             <Date>2016-10-27</Date>
-            <Version>41.0.2353.46</Version>
+            <Version>42.0.2393.85</Version>
             <Comment>First Release.</Comment>
             <Name>Ali Murat Algül</Name>
             <Email>alimuratgulle@limelinux.com</Email>

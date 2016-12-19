@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>caprine</Name>
@@ -13,7 +13,7 @@
         <IsA>app:gui</IsA>
         <Summary>Unofficial Facebook Messenger app.</Summary>
         <Description>Not an official app. No affiliation with Facebook.</Description>
-        <Archive sha1sum="9ec926dd10aebc81727c9f832d7d476045927077" type="targz">https://github.com/groni/Sources/raw/master/caprine.tar.gz</Archive>        
+        <Archive sha1sum="9ec926dd10aebc81727c9f832d7d476045927077" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/caprine.tar.gz</Archive>        
     </Source>
 
     <Package>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>kronometer</Name>
@@ -12,11 +12,11 @@
         <IsA>app:gui</IsA>
         <Summary>Kronometer is a simple chronometer application built for KDE</Summary>
         <Description>Kronometer features the basic stopwatch actions (pause/resume/reset/laps), as well the ability to save the times on filesystem and resume them later.</Description>
-        <Archive sha1sum="2b4be09d605003dc39650934cd98b5701205443c" type="tarxz">http://download.kde.org/stable/kronometer/2.0.1/src/kronometer-2.0.1.tar.xz</Archive>
+        <Archive sha1sum="8a8808861f787804995ae7d495b2d0c568b300f7" type="tarxz">http://download.kde.org/stable/kronometer/2.1.2/src/kronometer-2.1.2.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>qt5-base-devel</Dependency>
             <Dependency>kconfig-devel</Dependency>
-            <Dependency>kdoctools-devel</Dependency>
+             <Dependency>kdoctools-devel</Dependency> 
             <Dependency>ki18n-devel</Dependency>
             <Dependency>kwidgetsaddons-devel</Dependency>
             <Dependency>kxmlgui-devel</Dependency>
@@ -52,7 +52,7 @@
     <History>
         <Update release="1">
             <Date>2016-04-01</Date>
-            <Version>2.0.1</Version>
+            <Version>2.1.2</Version>
             <Comment>First Release.</Comment>
             <Name>Ali Murat Algül</Name>
             <Email>alimuratgulle@limelinux.com</Email>

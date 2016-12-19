@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>gitbook-editor</Name>
@@ -12,7 +12,7 @@
         <IsA>app:gui</IsA>
         <Summary>GitBook Simple writing from your desktop.</Summary>
         <Description>The GitBook workflow you love, on your Desktop. Try it now !</Description>
-        <Archive sha1sum="9533674c1351dffe89960b39fd4081b48977d68b" type="targz">https://github.com/groni/Sources/raw/master/gitbook-editor-6.2.1-x64.tar.gz</Archive>        
+        <Archive sha1sum="9533674c1351dffe89960b39fd4081b48977d68b" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/gitbook-editor-6.2.1-x64.tar.gz</Archive>        
     </Source>
 
     <Package>
@@ -57,7 +57,7 @@
     <History>
         <Update release="1">
             <Date>2016-08-03</Date>
-            <Version>6.2.0</Version>
+            <Version>6.2.1</Version>
             <Comment>First release</Comment>
             <Name>Ali Murat Algül</Name>
             <Email>alimuratgulle@limelinux.com</Email>
