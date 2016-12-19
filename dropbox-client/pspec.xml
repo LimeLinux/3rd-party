@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>dropbox-client</Name>
+        <Homepage>http://www.dropbox.com</Homepage>
+        <Packager>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Packager>
+        <License>as-is</License>
+        <License>MIT</License>
+        <License>GPLv2</License>
+        <License>LGPLv2.1</License>        
+        <Icon>dropbox</Icon>
+        <IsA>app:gui</IsA>
+        <Summary>A Dropbox client</Summary>
+        <Description>Dropbox is a Web-based file hosting service which uses cloud computing to enable users to store and share files and folders with others across the Internet using file synchronization.</Description>
+        <Archive sha1sum="cdd1a1826ff8e7737cfe32211135190635ce681a" type="targz" target="i686">https://d1ilhw0800yew8.cloudfront.net/client/dropbox-lnx.x86-16.4.29.tar.gz</Archive>
+        <Archive sha1sum="0bd275b7204c72d29bffc9a9816683bec08fc507" type="targz" target="x86_64">https://d1ilhw0800yew8.cloudfront.net/client/dropbox-lnx.x86_64-16.4.29.tar.gz</Archive>        
+    </Source>
+
+    <Package>
+        <Name>dropbox-client</Name>
+        <RuntimeDependencies>
+            <Dependency>mesa</Dependency>
+            <Dependency>libSM</Dependency>
+            <Dependency>libICE</Dependency>
+            <Dependency>libdrm</Dependency>
+            <Dependency>libXmu</Dependency>
+            <Dependency>libxslt</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>librsync</Dependency>
+            <Dependency>libXfixes</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>libXdamage</Dependency>
+            <Dependency>libXrender</Dependency>
+	        <Dependency>libXxf86vm</Dependency>
+            <Dependency>libXcomposite</Dependency>
+            <Dependency>dbus</Dependency>
+            <Dependency>zlib</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>libxcb</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>ncurses</Dependency>
+            <Dependency>freetype</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="executable">/opt/dropbox</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/doc/dropbox/POLICIES">POLICIES</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/pixmaps/dropbox.png">dropbox.png</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/dropbox.desktop">dropbox.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2016-12-13</Date>
+            <Version>16.4.29</Version>
+            <Comment>First release</Comment>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Update>   
+    </History>
+</PISI>

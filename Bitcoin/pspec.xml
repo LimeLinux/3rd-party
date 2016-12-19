@@ -1,0 +1,43 @@
+<PISI>
+    <Source>
+        <Name>bitcoin</Name>
+        <Homepage>https://bitcoin.org/</Homepage>
+       <Packager>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>network</PartOf>
+        <IsA>app:gui</IsA>
+        <Summary>Bitcoin, yaratıcı bir ödeme ağı ve yeni bir para birimidir.
+
+</Summary>
+        <Description>Bitcoin eşler arası teknolojiyi kullanarak merkez otorite veya banka olmadan çalışır. İşlemlerin yönetimi ve bitcoinlerin dağıtımı toplu olarak ağ tarafından idare edilir. Bitcoin açık kaynaklıdır; tasarımı halka açıktır, kimse Bitcoin'e sahip değildir ve onu kontrol edemez, herkes katılabilir. Bitcoin kendine has birçok özelliği sayesinde diğer ödeme yollarıyla yapılamayacak çok farklı ödemelerin üstesinden gelebilir.</Description>
+        <Icon>bitcoin</Icon>
+        <Archive sha1sum="729ccb5615c4830eba38f79d0d05bb95ee4909b3" type="targz">https://bitcoin.org/bin/bitcoin-core-0.13.1/bitcoin-0.13.1.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>bitcoin</Name>
+        <Files>
+             <Path fileType="data">/usr/</Path>
+            <Path fileType="icon">/usr/share/pixmaps</Path>
+            <Path fileType="application">/usr/share/applications</Path> 
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile target="/usr/share/applications/bitcoin.desktop" group="root" owner="root" permission="0744">bitcoin.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/pixmaps/bitcoin.ico" group="root" owner="root" permission="0744">bitcoin.ico</AdditionalFile>
+        </AdditionalFiles>
+        <Summary>Bitcoin, yaratıcı bir ödeme ağı ve yeni bir para birimidir.
+
+</Summary>
+    </Package>
+        <History>
+        <Update release="1">
+            <Date>2016-18-12</Date>
+            <Version>0.13.1</Version>
+            <Comment>First release</Comment>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Update>
+    </History>
+</PISI>
