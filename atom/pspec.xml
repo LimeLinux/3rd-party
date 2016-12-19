@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://limelinux.com/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>atom-beta</Name>
+        <Homepage>https://atom.io/</Homepage>
+        <Packager>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Packager>
+        <License>as-is</License>
+        <IsA>gui</IsA>
+        <PartOf>applications.development</PartOf>
+        <Summary>A hackable text editor.</Summary>
+        <Description>Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.</Description>
+        <Archive sha1sum="b29b6834dd36318476824c2ab53843ce0c4e3c76" type="targz">/home/gulle/İndirilenler/depacık/atom-1.13.0.tar.gz</Archive>
+    </Source>
+
+    <Package>
+        <Name>atom-beta</Name>
+        <RuntimeDependencies>
+            <Dependency>atk</Dependency>
+            <Dependency>nss</Dependency>
+            <Dependency>cups</Dependency>
+            <Dependency>dbus</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>nspr</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>expat</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libXi</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>libXtst</Dependency>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>libXfixes</Dependency>
+            <Dependency>libXrandr</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libXcursor</Dependency>
+            <Dependency>libXdamage</Dependency>
+            <Dependency>libXrender</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>libpng</Dependency>
+<!--             <Dependency>google-chrome</Dependency> -->
+            <Dependency>libXcomposite</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+        </RuntimeDependencies>
+        <Files>            agbim gelmis hos gelmis
+            <Path fileType="executable">/usr/bin</Path>            
+            <Path fileType="data">/usr/share/atom-beta</Path>
+            <Path fileType="doc">/usr/share/doc/atom-beta</Path>
+           <Path fileType="icon">/usr/share/pixmaps</Path>
+           <Path fileType="application">/usr/share/applications</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/pixmaps/atom-beta.png">atom-beta.png</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/atom-beta.desktop">atom-beta.desktop</AdditionalFile>            
+        </AdditionalFiles>
+    </Package>
+
+    <History>      
+        <Update release="1">
+            <Date>2016-12-12</Date>
+            <Version>1.13.0</Version>
+            <Comment>First Release</Comment>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Update>
+    </History>
+</PISI> 

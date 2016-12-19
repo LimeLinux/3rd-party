@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>arduino</Name>
+        <Homepage>http://energia.nu/</Homepage>
+        <Packager>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Packager>
+        <License>GPLv1</License>
+        <PartOf>programming</PartOf>
+        <IsA>app:gui</IsA>
+        <Summary>Arduino IDE, yazılım geliştirme ortamı</Summary>
+        <Description>Arduino IDE kod editörü ve derleyici olarak görev yapan, aynı zamanda derlenen programı karta yükleme işlemini de yapabilen, her platformda çalışabilen Java programlama dilinde yazılmış bir uygulamadır.</Description>
+        <Icon>arduino</Icon>
+        <Archive sha1sum="c2e7b2a3fcf073cff2e58d8e6b5782e32402639b" type="tarxz">https://downloads.arduino.cc/arduino-1.6.13-linux64.tar.xz</Archive>
+    </Source>
+    <Package>
+        <Name>arduino</Name>
+        <Files>
+            <Path fileType="data">/usr</Path>
+            <!--Path fileType="icon">/usr/share/pixmaps</Path>
+            <Path fileType="application">/usr/share/applications</Path--> 
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile target="/usr/share/applications/arduino.desktop" owner="root" permission="0744" group="root">arduino.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/pixmaps/arduino.png" owner="root" permission="0744" group="root">arduino.png</AdditionalFile>
+        </AdditionalFiles>
+        <Summary>Arduino IDE, yazılım geliştirme ortamı</Summary>
+    </Package>
+     <History>      
+        <Update release="1">
+            <Date>2016-12-12</Date>
+            <Version>1.6.13</Version>
+            <Comment>First Release</Comment>
+            <Name>Ali Murat Algül</Name>
+            <Email>alimuratgulle@limelinux.com</Email>
+        </Update>
+    </History>
+</PISI>
