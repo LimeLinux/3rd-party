@@ -12,7 +12,7 @@
         <IsA>app:gui</IsA>
         <Summary>GitBook Simple writing from your desktop.</Summary>
         <Description>The GitBook workflow you love, on your Desktop. Try it now !</Description>
-        <Archive sha1sum="9533674c1351dffe89960b39fd4081b48977d68b" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/gitbook-editor-6.2.1-x64.tar.gz</Archive>        
+        <Archive sha1sum="9533674c1351dffe89960b39fd4081b48977d68b" type="targz">https://sourceforge.net/projects/pisi-source/files/3rd-party/gitbook-editor-6.2.1-x64.tar.gz</Archive>        
     </Source>
 
     <Package>

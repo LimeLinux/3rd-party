@@ -13,7 +13,7 @@
         <PartOf>applications.development</PartOf>
         <Summary>A hackable text editor.</Summary>
         <Description>Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.</Description>
-        <Archive sha1sum="b29b6834dd36318476824c2ab53843ce0c4e3c76" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/atom-1.13.0.tar.gz</Archive>
+        <Archive sha1sum="b29b6834dd36318476824c2ab53843ce0c4e3c76" type="targz">https://sourceforge.net/projects/pisi-source/files/3rd-party/atom-1.13.0.tar.gz</Archive>
     </Source>
 
     <Package>
@@ -47,11 +47,11 @@
             <Dependency>libXrender</Dependency>
             <Dependency>glibc</Dependency>
             <Dependency>libpng</Dependency>
-<!--             <Dependency>google-chrome</Dependency> -->
+            <Dependency>google-chrome</Dependency>
             <Dependency>libXcomposite</Dependency>
             <Dependency>libgnome-keyring</Dependency>
         </RuntimeDependencies>
-        <Files>            agbim gelmis hos gelmis
+        <Files>
             <Path fileType="executable">/usr/bin</Path>            
             <Path fileType="data">/usr/share/atom-beta</Path>
             <Path fileType="doc">/usr/share/doc/atom-beta</Path>

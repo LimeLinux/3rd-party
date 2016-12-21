@@ -12,7 +12,7 @@
         <IsA>app:gui</IsA>
         <Summary>Telegram a new era of messaging</Summary>
         <Description>Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.</Description>
-        <Archive sha1sum="1e7a6a5a8f5ba0200ed0dc3f980f8b6f3cccc4b0" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/telegram-0.10.19.tar.gz</Archive>        
+        <Archive sha1sum="1e7a6a5a8f5ba0200ed0dc3f980f8b6f3cccc4b0" type="targz">https://sourceforge.net/projects/pisi-source/files/3rd-party/telegram-0.10.19.tar.gz</Archive>        
     </Source>
 
     <Package>

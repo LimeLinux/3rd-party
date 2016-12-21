@@ -13,7 +13,7 @@
         <IsA>app:gui</IsA>
         <Summary>Pristine Twitter app.</Summary>
         <Description>Twitter Application for the Desktop.</Description>
-        <Archive sha1sum="0a4e4af1a39684175ca19259d33a10d8a4b96844" type="targz">https://raw.githubusercontent.com/aligulle1/3rd-party/master/anatine.tar.gz</Archive>        
+        <Archive sha1sum="0a4e4af1a39684175ca19259d33a10d8a4b96844" type="targz">https://sourceforge.net/projects/pisi-source/files/3rd-party/anatine.tar.gz</Archive>        
     </Source>
 
     <Package>

@@ -7,6 +7,7 @@ from pisi.actionsapi import pisitools
 
 
 WorkDir = "."
+
 def install():
     pisitools.insinto("/usr/bin/", "./usr/bin/apm")    
     pisitools.insinto("/usr/bin/", "./usr/bin/atom")       
