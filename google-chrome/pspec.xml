@@ -49,7 +49,7 @@
             <Dependency>libXext</Dependency>
 	    <Dependency>libXrandr</Dependency>
 	    <Dependency>libXcursor</Dependency>
-            <Dependency>minizip</Dependency>            
+            <Dependency>zlib</Dependency>            
             <Dependency>alsa-lib</Dependency>
             <Dependency>fontconfig</Dependency>
             <Dependency>libXScrnSaver</Dependency>
