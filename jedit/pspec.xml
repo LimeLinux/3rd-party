@@ -14,7 +14,7 @@
         <Description>jEdit is a mature programmer's text editor with hundreds (counting the time developing plugins) of person-years of development behind it. It is written in Java</Description>
         <BuildDependencies>
             <Dependency>desktop-file-utils</Dependency>
-            <Dependency>libxslt-devel</Dependency>
+            <Dependency>libxslt</Dependency>
             <Dependency>jdk7-openjdk</Dependency>
             <Dependency>jre7-openjdk</Dependency>
         </BuildDependencies>
