@@ -12,7 +12,7 @@
         <IsA>library</IsA>
         <Summary>Teamviewer fonts</Summary>
         <Description>teamviewer windows fonts</Description>
-        <Archive sha1sum="28cc454bc7692ab80fe74f239b1f940e55fe1526" type="targz">https://dl.dropboxusercontent.com/s/u4tmxiwc51f0rer/teamviewer-fonts.tar.gz</Archive> 
+        <Archive sha1sum="b50171f2f9e4187f709b548dddffe096596a89a9" type="targz">https://sourceforge.net/projects/pisi-source/files/teamviewer-fonts-0.1.tar.gz</Archive> 
     </Source>
 
     <Package>
@@ -26,8 +26,8 @@
 
     <History>
         <Update release="1">
-            <Date>2016-07-30</Date>
-            <Version>0.1</Version>
+            <Date>2017-01-06</Date>
+            <Version>0.2</Version>
             <Comment>Version Bump</Comment>
             <Name>Ergün Salman</Name>
             <Email>poyraz76@limelinux.com</Email>
