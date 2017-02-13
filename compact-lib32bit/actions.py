@@ -9,5 +9,4 @@ from pisi.actionsapi import pisitools
 WorkDir = "."
 
 def install():
-    pisitools.insinto("/opt/teamviewer/tv_bin/wine/share/wine/fonts/", "./teamviewer-fonts/*.ttf")
-    pisitools.insinto("usr/", "./teamviewer-fonts/lib32")
+    pisitools.insinto("usr/lib32/", "./lib32/*")

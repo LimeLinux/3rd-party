@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>teamviewer</Name> 
         <Homepage>http://www.teamviewer.com/</Homepage> 
         <Packager>
-            <Name>Ali Murat Algül</Name>
-            <Email>alimuratgulle@limelinux.com</Email> 
+            <Name>LimeLinux Community</Name> 
+            <Email>admins@limelinux.com</Email> 
         </Packager>
         <License>as-is</License> 
         <License>TeamViewer GmbH</License> 
         <IsA>app:gui</IsA> 
         <Summary>User friendly remote control application</Summary>
         <Description>TeamViewer is a computer software for remote control, desktop sharing, and file transfer between Linux, Windows and Apple computers. TeamViewer is free for personal use. You can use TeamViewer completely free of charge to access your private computers or to help your friends with their computer problems. To buy a license for commercial use, please visit http://www.teamviewer.com </Description>
-        <Archive sha1sum="910c6b2ca3ea6d7cbee0445f2641abc8a952edfd" type="binary">https://downloadus2.teamviewer.com/download/version_12x/teamviewer_12.0.71510.i686.rpm</Archive>
+        <Archive sha1sum="910c6b2ca3ea6d7cbee0445f2641abc8a952edfd" type="binary">https://download.teamviewer.com/download/teamviewer_12.0.71510.i686.rpm</Archive>
         <BuildDependencies>
             <Dependency>rpm2targz</Dependency>
         </BuildDependencies>
@@ -22,27 +22,14 @@
     <Package>
         <Name>teamviewer</Name>
         <RuntimeDependencies>
-            <Dependency>libXtst-32bit</Dependency>
-            <Dependency>teamviewer-fonts</Dependency>
-            <Dependency>alsa-lib-32bit</Dependency>
-            <Dependency>libXdamage-32bit</Dependency>
-            <Dependency>zlib-32bit</Dependency>
-            <Dependency>freetype-32bit</Dependency>
-            <Dependency>libSM-32bit</Dependency>
-            <Dependency>libX11-32bit</Dependency>
-            <Dependency>libXau-32bit</Dependency>
-            <Dependency>libXext-32bit</Dependency>
-            <Dependency>libXrandr-32bit</Dependency>
-            <Dependency>libXfixes-32bit</Dependency>
-            <Dependency>libXrender-32bit</Dependency>
-            <Dependency>harfbuzz-32bit</Dependency>
-            <Dependency>qt5-base-32bit</Dependency>
+            <Dependency>compact-lib32bit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/opt/teamviewer*</Path>
             <Path fileType="data">/usr/share</Path>
             <Path fileType="config">/etc/init.d</Path>
+            <Path fileType="config">/etc/conf.d</Path>
             <Path fileType="config">/etc/teamviewer</Path>
             <Path fileType="data">/var/log</Path>
             <Path fileType="doc">/usr/share/doc</Path>
@@ -50,26 +37,21 @@
         <AdditionalFiles>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/teamviewer.desktop">teamviewer.desktop</AdditionalFile>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/pixmaps/teamviewer.png">teamviewer.png</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/etc/conf.d/teamviewer">teamviewer.conf</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/etc/init.d/teamviewer">teamviewer.init</AdditionalFile>
         </AdditionalFiles>
         <Provides>
-            <COMAR script="service.py">System.Service</COMAR>
+            <COMAR script="package.py">System.Package</COMAR>
         </Provides>
     </Package>
 
     <History>
-        <Update release="2">
-            <Date>2016-12-25</Date>
-            <Version>12.0.71510</Version>
-            <Comment>version b.</Comment>
-            <Name>Ali Murat Algül</Name>
-            <Email>alimuratgulle@limelinux.com</Email>
-        </Update>
         <Update release="1">
-            <Date>2016-11-10</Date>
-            <Version>11.0.67687</Version>
+            <Date>2017-02-03</Date>
+            <Version>12.0.71510</Version>
             <Comment>First release</Comment>
-            <Name>Ali Murat Algül</Name>
-            <Email>alimuratgulle@limelinux.com</Email>
+            <Name>PisiLinux Community</Name>
+            <Email>admins@pisilinux.org</Email>
         </Update>
     </History>
 </PISI>

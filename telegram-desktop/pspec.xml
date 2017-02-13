@@ -18,7 +18,7 @@
     <Package>
         <Name>telegram-desktop</Name>        
         <RuntimeDependencies>
-            <Dependency>qt5-base</Dependency>
+            <Dependency>qt5</Dependency>
             <Dependency>dbus</Dependency>
             <Dependency>glib2</Dependency>
             <Dependency>libX11</Dependency>

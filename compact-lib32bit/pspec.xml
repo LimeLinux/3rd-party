@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>teamviewer-fonts</Name>
+        <Name>compact-lib32bit</Name>
         <Homepage>http://www.limelinux.com</Homepage>
         <Packager>
             <Name>Ergün Salman</Name>
@@ -12,14 +12,13 @@
         <IsA>library</IsA>
         <Summary>Teamviewer fonts</Summary>
         <Description>teamviewer windows fonts</Description>
-        <Archive sha1sum="b50171f2f9e4187f709b548dddffe096596a89a9" type="targz">https://sourceforge.net/projects/pisi-source/files/teamviewer-fonts-0.1.tar.gz</Archive> 
+        <Archive sha1sum="8571724294884cc0cb41e0bb59a5242c47d339c6" type="tarxz">https://sourceforge.net/projects/limeteam/files/source-limelinux/lib32.tar.xz</Archive> 
     </Source>
 
     <Package>
-        <Name>teamviewer-fonts</Name>
+        <Name>compact-lib32bit</Name>
         <Files>
             <Path fileType="library">/usr/lib32/</Path>
-            <Path fileType="data">/opt/teamviewer/</Path>
         </Files>
     </Package>
 

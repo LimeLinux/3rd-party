@@ -10,7 +10,7 @@
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
         <License>Copyright (c) 2016 Skype and/or Microsoft</License>
-        <Archive sha1sum="544a75a462dbeee0f0330fc9726cadd887a9efab" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.13.0.3_amd64.deb</Archive>
+        <Archive sha1sum="d2845fa758ecf85e762a54acb856442279ca53fd" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.17.0.1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -62,7 +62,7 @@
     <History>
         <Update release="1">
             <Date>2016-12-13</Date>
-            <Version>1.13.0.3</Version>
+            <Version>1.17.0.1</Version>
             <Comment>First Release</Comment>
            <Name>Ali Murat Algül</Name>
             <Email>alimuratgulle@limelinux.com</Email>
