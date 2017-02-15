@@ -12,7 +12,7 @@
         <IsA>library</IsA>
         <Summary>Teamviewer fonts</Summary>
         <Description>teamviewer windows fonts</Description>
-        <Archive sha1sum="13705c03a313d61d827bbbeb2db7245a77f16d93" type="tarxz">https://sourceforge.net/projects/limeteam/files/source-limelinux/compact-lib32.tar.xz</Archive> 
+        <Archive sha1sum="6682db650781f39de4f4162a6518e65ed2f1f903" type="tarxz">https://sourceforge.net/projects/limeteam/files/source-limelinux/compact-lib32.tar.xz</Archive> 
     </Source>
 
     <Package>
