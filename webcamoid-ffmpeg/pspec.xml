@@ -15,7 +15,6 @@
         <Archive sha1sum="1c669aef75ab9a63a810620286ac0c0ba6fe19d5" type="targz">https://github.com/webcamoid/webcamoid/archive/7.2.1.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>qt5</Dependency>
-            <Dependency>libdbusmenu-qt</Dependency>
             <Dependency>ffmpeg</Dependency>
             <Dependency>libv4l</Dependency>
         </BuildDependencies>
