@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>flashplugin</Name>
         <Homepage>http://labs.adobe.com/technologies/flashplayer10</Homepage>
         <Packager>
-            <Name>PisiLinux Community</Name>
-            <Email>admins@pisilinux.org</Email>
+            <Name>Lime GNU/Linux</Name>
+            <Email>admin@limelinux.com</Email>
         </Packager>
         <License>Macromedia</License>
         <IsA>library</IsA>
@@ -57,57 +57,14 @@
             <Flag>noDelta</Flag>
         </BuildFlags>
     </Package>
-
-    <!--<Package>
-        <Name>flashplugin-kde-extension</Name>
-        <RuntimeDependencies>
-            <Dependency>libSM</Dependency>
-            <Dependency>libXpm</Dependency>
-            <Dependency>libICE</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libXau</Dependency>
-            <Dependency>libXft</Dependency>
-            <Dependency>libXext</Dependency>
-            <Dependency>libXdmcp</Dependency>
-            <Dependency release="current">flashplugin</Dependency>
-        </RuntimeDependencies>
-        <Files>
-            <Path fileType="data">/usr/share/kde4/</Path>
-            <Path fileType="library">/usr/lib/kde4/</Path>
-        </Files>
-        <BuildFlags>
-            <Flag>noDelta</Flag>
-        </BuildFlags>
-    </Package>-->
     
     <History>
-        <Update release="4">
-            <Date>2016-12-20</Date>
-            <Version>24.0.0.186</Version>
-            <Comment>Version Bump</Comment>
-            <Name>Stefan Gronewold</Name>
-            <Email>groni@pisilinux.org</Email>
-        </Update>
-        <Update release="3">
-            <Date>2016-06-14</Date>
-            <Version>11.2.202.621</Version>
-            <Comment>Version Bump</Comment>
-            <Name>Pisi Linux Community</Name>
-            <Email>admin@pisilinux.org</Email>
-        </Update>
-        <Update release="2">
-            <Date>2016-06-09</Date>
-            <Version>11.2.202.569</Version>
-            <Comment>Release Bump</Comment>
-            <Name>Pisi Linux Community</Name>
-            <Email>admin@pisilinux.org</Email>
-        </Update>
         <Update release="1" type="security">
             <Date>2017-03-02</Date>
             <Version>24.0.0.221</Version>
             <Comment>First release</Comment>
-            <Name>Osman Erkan</Name>
-            <Email>osman.erkan@pisilinux.org</Email>
+            <Name>Lime GNU/Linux</Name>
+            <Email>admin@limelinux.com</Email>
         </Update>
     </History>
 </PISI>
