@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>flashplugin</Name>
+        <Homepage>http://labs.adobe.com/technologies/flashplayer10</Homepage>
+        <Packager>
+            <Name>PisiLinux Community</Name>
+            <Email>admins@pisilinux.org</Email>
+        </Packager>
+        <License>Macromedia</License>
+        <IsA>library</IsA>
+        <Icon>flash-player-properties</Icon>
+        <Summary>Adobe Flash Player</Summary>
+        <Description>Adobe (Macromedia) Flash Player is an application to present interactive (and possibly multimedia-containing) content created using Adobe Flash.</Description>
+        <Archive sha1sum="f2fa63b6a18f3141a3b66e95e8cd003ca97aab15" type="targz" target="i686">https://fpdownload.adobe.com/get/flashplayer/pdc/24.0.0.221/flash_player_npapi_linux.i386.tar.gz</Archive>
+        <Archive sha1sum="70a56b541f0e980ed64f054799e23f92a91feceb" type="targz" target="x86_64">https://fpdownload.adobe.com/get/flashplayer/pdc/24.0.0.221/flash_player_npapi_linux.x86_64.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>nss</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>libXt</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXext</Dependency>
+            <!--flashplugin-kde-extension-->            
+            <Dependency>libXpm</Dependency>
+             <Dependency>mesa</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>flashplugin</Name>
+        <RuntimeDependencies>
+            <Dependency>mesa</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>atk</Dependency>
+            <Dependency>nss</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>nspr</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libXt</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>freetype</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libXcursor</Dependency>
+            <Dependency>libXrender</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="executable">/usr/bin</Path>
+        </Files>
+        <BuildFlags>
+            <Flag>noDelta</Flag>
+        </BuildFlags>
+    </Package>
+
+    <!--<Package>
+        <Name>flashplugin-kde-extension</Name>
+        <RuntimeDependencies>
+            <Dependency>libSM</Dependency>
+            <Dependency>libXpm</Dependency>
+            <Dependency>libICE</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXau</Dependency>
+            <Dependency>libXft</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>libXdmcp</Dependency>
+            <Dependency release="current">flashplugin</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/share/kde4/</Path>
+            <Path fileType="library">/usr/lib/kde4/</Path>
+        </Files>
+        <BuildFlags>
+            <Flag>noDelta</Flag>
+        </BuildFlags>
+    </Package>-->
+    
+    <History>
+        <Update release="4">
+            <Date>2016-12-20</Date>
+            <Version>24.0.0.186</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Stefan Gronewold</Name>
+            <Email>groni@pisilinux.org</Email>
+        </Update>
+        <Update release="3">
+            <Date>2016-06-14</Date>
+            <Version>11.2.202.621</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Pisi Linux Community</Name>
+            <Email>admin@pisilinux.org</Email>
+        </Update>
+        <Update release="2">
+            <Date>2016-06-09</Date>
+            <Version>11.2.202.569</Version>
+            <Comment>Release Bump</Comment>
+            <Name>Pisi Linux Community</Name>
+            <Email>admin@pisilinux.org</Email>
+        </Update>
+        <Update release="1" type="security">
+            <Date>2017-03-02</Date>
+            <Version>24.0.0.221</Version>
+            <Comment>First release</Comment>
+            <Name>Osman Erkan</Name>
+            <Email>osman.erkan@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
