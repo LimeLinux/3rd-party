@@ -22,7 +22,7 @@
     <Package>
         <Name>steam</Name>
         <RuntimeDependencies>
-            <Dependency>compact-32bit</Dependency>
+            <Dependency>compact-lib32bit</Dependency>
         </RuntimeDependencies>
 
         <Files>
