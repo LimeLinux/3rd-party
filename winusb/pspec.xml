@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.limelinux.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>winusb</Name>
+        <Homepage>www.congelli.eu</Homepage>
+        <Packager>
+            <Name>Lime GNU/Linux</Name>
+            <Email>admin@limelinux.com</Email>
+        </Packager>
+        <License>custom</License>
+        <IsA>gui</IsA>
+        <Summary>winusb</Summary>
+        <Description>winusb iso</Description>
+        <Archive sha1sum="33d9ea22c1e112c0ea623629ca312a4c9fd3443d" type="targz">https://sourceforge.net/projects/limeteam/files/source-limelinux/winusb.tar.gz</Archive>
+    </Source>
+
+    <Package>
+        <Name>winusb</Name>
+        <RuntimeDependencies>
+            <Dependency>wxGTK2.8</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="executable">/usr/bin</Path>
+        </Files>
+        <BuildFlags>
+            <Flag>noDelta</Flag>
+        </BuildFlags>
+    </Package>
+    
+    <History>
+        <Update release="1">
+            <Date>2017-04-28</Date>
+            <Version>1.0.0</Version>
+            <Comment>First release</Comment>
+            <Name>Lime GNU/Linux</Name>
+            <Email>admin@limelinux.com</Email>
+        </Update>
+    </History>
+</PISI>

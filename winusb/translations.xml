@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>winusb</Name>
+        <Summary xml:lang="tr">winusb Windows iso Linux üzerinde yazdırma aracı</Summary>
+        <Description xml:lang="tr">winusb windows isoları linux üzerinde kolaylıkla yazdırmaya yarayan basit bir araçtır.</Description>
+    </Source>
+</PISI>
