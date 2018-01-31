@@ -14,7 +14,7 @@
         <IsA>app:gui</IsA>
         <Summary>Google Chrome for Linux</Summary>
         <Description>Google Chrome is another web browser which runs web pages and applications with lightning speed due to its superior JavaScript rendering engine.</Description>
-        <Archive sha1sum="95bfe6d11497f8a3bfc069d71622c5cd5c0dadb1" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_56.0.2924.87-1_amd64.deb</Archive>
+        <Archive sha1sum="eb9d18ba8451be838ca1c8683669a61e1eebfadd" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_64.0.3282.119-1_amd64.deb</Archive>
         <BuildDependencies>            
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -33,7 +33,7 @@
 	    <Dependency>libX11</Dependency>
 	    <Dependency>libgcc</Dependency>
         <Dependency>libxcb</Dependency>
-            <Dependency>cairo</Dependency>
+        <Dependency>cairo</Dependency>
             <Dependency>atk</Dependency>
             <Dependency>libXcomposite</Dependency>
             <Dependency>gtk2</Dependency>
@@ -71,13 +71,14 @@
             <Path fileType="data">/opt/google/</Path>
             <Path fileType="data">/usr/share/pixmaps/</Path>
             <Path fileType="data">/usr/share/applications/</Path>
+            <Path fileType="data">/usr/share/appdata/</Path>
             <Path fileType="data">/usr/share/menu/</Path>
         </Files>
     </Package>
     <History>
         <Update release="1">
-            <Date>2016-12-13</Date>
-            <Version>56.0.2924.87</Version>
+            <Date>2018-01-30</Date>
+            <Version>64.0.3282.119</Version>
             <Comment>First Release.</Comment>
            <Name>Ali Murat Algül</Name>
             <Email>alimuratgulle@limelinux.com</Email>
