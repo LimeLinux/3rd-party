@@ -13,21 +13,20 @@
         <IsA>app:gui</IsA> 
         <Summary>User friendly remote control application</Summary>
         <Description>TeamViewer is a computer software for remote control, desktop sharing, and file transfer between Linux, Windows and Apple computers. TeamViewer is free for personal use. You can use TeamViewer completely free of charge to access your private computers or to help your friends with their computer problems. To buy a license for commercial use, please visit http://www.teamviewer.com </Description>
-               <Archive sha1sum="271521eba68b230f684953bf0f1f6360df02bb29" type="binary">https://download.teamviewer.com/download/version_12x/teamviewer_12.0.76279.i686.rpm</Archive>
+               <Archive sha1sum="187b8e658bcd912ab303c45041e04d6943f13d8b" type="tarxz">https://sourceforge.net/projects/limeteam/files/source-limelinux/data.tar.xz</Archive>
         <BuildDependencies>
-            <Dependency>rpm2targz</Dependency>
         </BuildDependencies>
     </Source>
 
     <Package>
         <Name>teamviewer</Name>
         <RuntimeDependencies>
-            <Dependency>compact-lib32bit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/opt/teamviewer*</Path>
             <Path fileType="data">/usr/share</Path>
+            <Path fileType="config">/etc/apt/sources.list.d/teamviewer.list</Path>
             <Path fileType="config">/etc/init.d</Path>
             <Path fileType="config">/etc/conf.d</Path>
             <Path fileType="config">/etc/teamviewer</Path>
@@ -48,7 +47,7 @@
     <History>
         <Update release="1">
             <Date>2017-04-23</Date>
-            <Version>12.0.76279</Version>
+            <Version>13.0.6634</Version>
             <Comment>First release</Comment>
             <Name>LimeLinux Community</Name>
             <Email>admin@limelinux.com</Email>
